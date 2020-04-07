@@ -403,7 +403,7 @@ public class HttpHandler {
     }
 
     public static void main(String[] args) throws CrypitorCommunicationException, CrypitorResponseException, URISyntaxException {
-        ResponseObject responseObject = HttpHandler.getInstance().doGet(ResponseObject.class, "https://webhook.site/ca1453e3-b2aa-422f-8f9a-d4ec2c764e29", CustomHttpHeaders.custom().build());
+        ResponseObject responseObject = HttpHandler.getInstance().doGet(ResponseObject.class, "https://webhook.site/9e11697e-32ef-460d-95e9-51dbf34cf972", CustomHttpHeaders.custom().build());
         System.out.println(responseObject.getRawJsonResponse());
     }
 }
